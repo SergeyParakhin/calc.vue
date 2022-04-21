@@ -1,0 +1,21 @@
+#app {
+    width: 200px;
+}
+
+input {
+    width: 200px;
+    font-size: 18px;
+    padding: 5px 5px;
+    text-align: right;
+  }
+
+.grid {
+    display: flex;                       
+    flex-wrap: wrap;  
+    justify-content: space-around;
+    width: 100%;  
+}
+
+.cell {
+    flex: 33%;
+}
